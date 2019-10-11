@@ -13,7 +13,7 @@ class Artist
   end
 
   def songs
-    Songs.all.map(){|song|
+    Song.all.map(){|song|
       song.artist == self
     }
   end
