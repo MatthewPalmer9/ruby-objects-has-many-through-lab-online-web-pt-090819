@@ -19,9 +19,10 @@ class Doctor
   end
 
   def patients
-    appointments.map(){|appointment|
-      appointment.patient
-    }
+    self.patient
+    #appointments.map(){|appointment|
+      #appointment.patient
+    #}
   end
 
   def self.all
