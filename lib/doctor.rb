@@ -23,7 +23,7 @@ class Doctor
   def patients
     #binding.pry
     appointments.map(){|appointment|
-      appointment.name
+      appointment.patient.name
     }
   end
 
