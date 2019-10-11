@@ -26,13 +26,6 @@ class Patient
     Appointment.new(self, date, doctor)
   end
 
-  def apppointments
-    Appointment.all.select(){|appointment|
-      binding.pry
-      #appointment.patient == self
-    }
-  end
-
   def self.all
     @@all
   end
