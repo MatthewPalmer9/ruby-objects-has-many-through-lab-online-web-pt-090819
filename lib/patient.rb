@@ -8,7 +8,7 @@ class Patient
     @@all << self
   end
 
-  def appointment
+  def appointments
     Appointment.all.select(){|appointment|
       appointment.patient == self
     }
