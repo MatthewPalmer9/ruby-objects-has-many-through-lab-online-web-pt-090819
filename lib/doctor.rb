@@ -22,7 +22,7 @@ class Doctor
 
   def patients
     appointments.collect(){|appointment|
-      binding.pry
+      appointment.patient
     }
   end
 
