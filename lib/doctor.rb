@@ -21,8 +21,8 @@ class Doctor
   end
 
   def patients
-    appointments.select(){|appointment|
-      appointment.patient
+    appointments.collect(){|appointment|
+      binding.pry
     }
   end
 
