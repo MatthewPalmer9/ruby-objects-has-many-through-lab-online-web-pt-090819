@@ -24,6 +24,7 @@ class Doctor
     appointments.map(){|appointment|
       appointment.patient
     }
+    binding.pry
   end
 
   def self.all
