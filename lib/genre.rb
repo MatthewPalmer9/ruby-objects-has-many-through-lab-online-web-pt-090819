@@ -9,7 +9,9 @@ class Genre
   end
 
   def songs
-    Genre.
+    Genre.all.select(){|genre|
+      
+    }
   end
 
   def self.all
