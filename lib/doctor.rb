@@ -21,10 +21,10 @@ class Doctor
   end
 
   def patients
-    binding.pry
     appointments.map(){|appointment|
       appointment.patient.name
     }
+    binding.pry
   end
 
   def self.all
