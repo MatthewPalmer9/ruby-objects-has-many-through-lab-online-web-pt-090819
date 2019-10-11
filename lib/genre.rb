@@ -9,8 +9,8 @@ class Genre
   end
 
   def songs
-    Genre.all.select(){|genre|
-      
+    Song.all.select(){|genre|
+
     }
   end
 
