@@ -21,8 +21,8 @@ class Doctor
   end
 
   def patients
-    appointments.map(){|appointment|
-      appointment.doctor.name
+    appointments.select(){|appointment|
+      appointment.doctor == self
     }
   end
 
