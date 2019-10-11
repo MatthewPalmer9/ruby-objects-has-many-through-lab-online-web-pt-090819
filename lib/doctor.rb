@@ -22,7 +22,7 @@ class Doctor
 
   def patients
     appointments.select(){|appointment|
-      appointment.doctor
+      appointment.patient == self
     }
   end
 
